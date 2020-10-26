@@ -248,7 +248,8 @@
 }
 
 .content-footer{
-    width: 76%;
+    width: 400px;
+    border: 2px solid white;
 }
 
 
@@ -468,5 +469,9 @@
     /* Footer - Footer */
     .footer p{
         font-size: 12px;
+    }
+
+    .content-footer{
+        width: 273px;
     }
 }
