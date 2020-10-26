@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="https://kit.fontawesome.com/8ea9353849.js" crossorigin="anonymous"></script>
+    <title>Landing Page - Rafael Gomes</title>
+</head>
+<body>
+    <!-- Menu superior - Header -->
+    <header class="header">
+        <nav class="nav-header">
+            <a href="#" class="a-header">Início</a>
+            <a href="#" class="a-header">Sobre</a>
+            <a href="#" class="a-header">Desafios</a>
+            <a href="#" class="a-header">Endereço</a>
+        </nav>
+
+        <nav class="icon-mobile-header">
+            <a href="#" class="hamburger-header" id="hamburger-header" onclick="botaoDoMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <div>
+        <nav class="nav-mobile-header" id="menu-mobile">
+            <a href="#" class="a-mobile-header">Início</a>
+            <a href="#" class="a-mobile-header">Sobre</a>
+            <a href="#" class="a-mobile-header">Desafios</a>
+            <a href="#" class="a-mobile-header">Endereço</a>
+        </nav>
+    </div>
+
+    <!-- Banner principal - Main -->
+    <main class="banner">
+            <div class="content-banner">
+                <h1>Desenvolvimento de sistemas 2020</h1>
+                <hr>
+                <p>SENAI de informatica</p>
+                <a href="#"> <img src="img/mouse-down.png" alt="Mouse apontando para baixo"></a>
+            </div>
+    </main>
+
+    <!-- About - Section -->
+    <section class="about">
+        <h2>Sobre os projetos</h2>
+        <div class="content-about">
+            <div class="image-about">
+                <img src="img/imagem-seção-sobre.jpg" alt="Palestrante explicando sobre os projetos">
+            </div>
+            <div class="text-about">
+                <p>Participantes</p>
+                <h3>Mais de 80 alunos organizados em 16 grupos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infos - Section -->
+    <section class="info">
+        <div class="content-info">
+            <div class="elemento-info">
+                <p>Local</p>
+                <p>São Paulo</p>
+            </div>
+    
+            <div class="elemento-info">
+                <p>Duração</p>
+                <p>90 Dias</p>
+            </div>
+    
+            <div class="elemento-info">
+                <p>Desafios</p>
+                <p>+30 desafios</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Endereço - Section -->
+    <section class="endereco">
+        <div class="content-endereco">
+            <div>
+                <h2>Endereço</h2>
+                <div class="text-endereco">
+                    <p>Alameda Barão de Limeira, 539<br>
+                    Santa Cecília, São Paulo - SP<br>
+                    CEP 01202-001
+                    </p>
+                    <img src="img/mapa.png" alt="Mapa">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - Footer -->
+    <footer class="footer">
+        <div class="content-footer">
+            <p>Copyright © 2020 - Escola Senai de Informática</p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    function botaoDoMenu() {
+      var navMobile = document.getElementById("menu-mobile");
+      var hamburgerHeader = document.getElementById("hamburger-header");
+
+      if (navMobile.style.display === "inline") {
+        navMobile.style.display = "none";
+      } else {
+        navMobile.style.display = "inline";
+      }
+    }
+ </script>
+</html>
